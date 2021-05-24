@@ -1,0 +1,240 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<base target="main">
+<title>Ed Scarborough-Radio Program Director.&nbsp; KHTC, Houston; KQXT, San Antonio; KHTR, St. Louis; KKHR, Los Angeles;
+KLTR, Houston &amp; WMXJ Miami</title>
+<meta name="description"
+content="Radio Stations KHTC, KQXT, KHTR, KKHR, KLTR, WMXJ, 55/KSD, WBZ, WDRC, WHYN.">
+<meta name="keywords"
+content="Program Director, KHTC, KQXT, KHTR, KKHR, KLTR, WMXJ, WDRC, WCCC, WHYN, WBZ, Hitradio, Hot Hits, CBS Radio, Jefferson Pilot, Majic, Big D, CHR, AC, Oldies, Radio and Records, Billboard, Hitmakers, Pulse, ARB, Arbitron, Broadcasting, Hartford, Boston, Springfield">
+<meta name="ROBOTS"
+content="Program Director, KHTC, KQXT, KHTR, KKHR, KLTR, WMXJ, WDRC, WCCC, WHYN, WBZ, Hitradio, Hot Hits, CBS Radio, Jefferson Pilot, Majic, Big D, CHR, AC, Oldies, Radio and Records, Billboard, Hitmakers, Pulse, ARB, Arbitron, Broadcasting, Hartford, Boston, Springfield">
+</head>
+<style>
+.spanstyle {
+	position:absolute;
+	visibility:visible;
+	top:-50px;
+	font-size:10pt;
+	font-family:Verdana;
+      font-weight:bold;
+	color:#3501F6;}</style><script>
+
+/*
+Cursor Trailor Text- By Peter Gehrig (http://www.24fun.ch/)
+Permission given to Dynamicdrive.com to feature script in it's archive.
+For full source code, installation instructions, and 1000's more DHTML scripts,
+visit http://dynamicdrive.com
+*/
+
+var x,y
+var step=20
+var flag=0
+
+// Your snappy message. Important: the space at the end of the sentence!!!
+var message="Hitradio 93 ! "
+message=message.split("")
+
+var xpos=new Array()
+for (i=0;i<=message.length-1;i++) {
+	xpos[i]=-50
+}
+
+var ypos=new Array()
+for (i=0;i<=message.length-1;i++) {
+	ypos[i]=-50
+}
+
+function handlerMM(e){
+	x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX
+	y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY
+	flag=1
+}
+
+function makesnake() {
+	if (flag==1 && document.all) {
+    	for (i=message.length-1; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+    	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length-1; i++) {
+    		var thisspan = eval("span"+(i)+".style")
+    		thisspan.posLeft=xpos[i]
+			thisspan.posTop=ypos[i]
+    	}
+	}
+	
+	else if (flag==1 && document.layers) {
+    	for (i=message.length-1; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+    	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length-1; i++) {
+    		var thisspan = eval("document.span"+i)
+    		thisspan.left=xpos[i]
+			thisspan.top=ypos[i]
+    	}
+	}
+		var timer=setTimeout("makesnake()",30)
+}
+
+</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23986539-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+
+<body onLoad="makesnake()" 
+style="width:100%;overflow-x:hidden;overflow-y:scroll"
+<!-- *****begin Cursor Trailer text code *************-- background="Images/Bg_greymusic.gif" -->
+<!-- *****begin Cursor Trailer text code *************-->
+<script>
+<!-- Beginning of JavaScript -
+
+for (i=0;i<=message.length-1;i++) {
+    document.write("<span id='span"+i+"' class='spanstyle'>")
+	document.write(message[i])
+    document.write("</span>")
+}
+
+if (document.layers){
+	document.captureEvents(Event.MOUSEMOVE);
+}
+document.onmousemove = handlerMM;
+
+// - End of JavaScript - -->
+</script>
+<div align="center"><center>
+
+<table BORDER="0" CELLSPACING="1" CELLPADDING="8" height="114" width="600">
+  <tr>
+    <td HEIGHT="96" width="130" align="center" rowspan="2"><p align="center"><a href="Hitmaker1.htm" target="main"><img src="Images/Hitmakers.jpg" width="178" height="69"
+    alt="Hitmakers.jpg (26050 bytes)"></a></td>
+    <td HEIGHT="96" width="160" align="center" rowspan="2"><font FACE="Times New Roman"
+    SIZE="3"><b>Program Director<br>
+    KKHR Radio Los Angeles, CA 8/83-6/86</b></font></td>
+    <td HEIGHT="42" width="163" align="center" valign="middle"><a href="audio/kkhr.wav">
+    <img src="Images/KKHRLogo.jpg"
+    alt="Download KKHR Jingle" lowsrc="Download%20KKHR%20Jingle" width="100" height="67"></a></td>
+  </tr>
+  <tr>
+    <td HEIGHT="42" width="163" align="center" valign="middle">
+    <object classid="clsid:22D6F312-B0F6-11D0-94AB-0080C74C7E95" id="MediaPlayer1" width="100"
+    height="30">
+      <param name="AudioStream" value="-1">
+      <param name="AutoSize" value="0">
+      <param name="AutoStart" value="-1">
+      <param name="AnimationAtStart" value="-1">
+      <param name="AllowScan" value="-1">
+      <param name="AllowChangeDisplaySize" value="-1">
+      <param name="AutoRewind" value="0">
+      <param name="Balance" value="0">
+      <param name="BufferingTime" value="5">
+      <param name="ClickToPlay" value="-1">
+      <param name="CursorType" value="0">
+      <param name="CurrentPosition" value="-1">
+      <param name="CurrentMarker" value="0">
+      <param name="DisplayBackColor" value="0">
+      <param name="DisplayForeColor" value="16777215">
+      <param name="DisplayMode" value="0">
+      <param name="DisplaySize" value="0">
+      <param name="Enabled" value="-1">
+      <param name="EnableContextMenu" value="-1">
+      <param name="EnablePositionControls" value="-1">
+      <param name="EnableFullScreenControls" value="0">
+      <param name="EnableTracker" value="-1">
+      <param name="Filename" value="audio/kkhr.wav">
+      <param name="InvokeURLs" value="-1">
+      <param name="Language" value="-1">
+      <param name="Mute" value="0">
+      <param name="PlayCount" value="1">
+      <param name="PreviewMode" value="0">
+      <param name="Rate" value="1">
+      <param name="SelectionStart" value="-1">
+      <param name="SelectionEnd" value="-1">
+      <param name="SendOpenStateChangeEvents" value="-1">
+      <param name="SendWarningEvents" value="-1">
+      <param name="SendErrorEvents" value="-1">
+      <param name="SendKeyboardEvents" value="0">
+      <param name="SendMouseClickEvents" value="0">
+      <param name="SendMouseMoveEvents" value="0">
+      <param name="SendPlayStateChangeEvents" value="-1">
+      <param name="ShowCaptioning" value="0">
+      <param name="ShowControls" value="-1">
+      <param name="ShowAudioControls" value="-1">
+      <param name="ShowDisplay" value="0">
+      <param name="ShowGotoBar" value="0">
+      <param name="ShowPositionControls" value="-1">
+      <param name="ShowStatusBar" value="0">
+      <param name="ShowTracker" value="-1">
+      <param name="TransparentAtStart" value="0">
+      <param name="VideoBorderWidth" value="0">
+      <param name="VideoBorderColor" value="0">
+      <param name="VideoBorder3D" value="0">
+      <param name="Volume" value="-130">
+      <param name="WindowlessVideo" value="0">
+    </object>
+    </td>
+  </tr>
+</table>
+</center></div>
+
+<table border="0" width="85%" height="1">
+  <tr>
+    <td width="100%" colspan="2" height="41"><font FACE="Times New Roman" SIZE="3">Transferred
+    from KHTR, St. Louis to launch CBS Hitradio Format. In just over a year, KKHR had grown
+    from 21<sup>st</sup> AQH to 8th. </font></td>
+  </tr>
+  <tr>
+    <font FACE="Times New Roman" SIZE="3"><td width="50%" height="192" valign="top"><p align="center">
+    <img
+    src="Images/LAcopy.jpg" alt="LA copy.jpg (24460 bytes)" width="275" height="161"></font></td>
+    <td width="50%" rowspan="3" height="1" valign="top"><p align="center">
+    <img src="Images/KKHRJocks.jpg"
+    alt="KKHR Jocks.jpg (27072 bytes)" width="300" height="267">
+      <p align="center"><a href="audio/kkhrprofile.mp3">Download Station Profile
+      (MP3)</a></td>
+  </tr>
+  <tr>
+    <td width="50%" height="1"><p align="center"><font FACE="Times New Roman" SIZE="3">The
+    original Hitradio Jocks<br>
+    (clockwise from the top):<br>
+    <br>
+    <img src="Images/a_rollingline.gif" alt="a_rolling line.gif (1890 bytes)" width="250"
+    height="5"></font></td>
+  </tr>
+  <tr>
+    <td width="50%" height="1"><p align="center"><font FACE="Times New Roman" SIZE="3">Dancin'
+    Mark Hansen, Todd Parker, <br>
+    Dave Donovan, Ed Scarborough (PD), <br>
+    Christopher Lance and Lou Simon</font></td>
+  </tr>
+</table>
+<font FACE="Times New Roman" SIZE="3">
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</font>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<base target="main">
+<title>Ed Scarborough-Radio Program Director.&nbsp; KHTC, Houston; KQXT, San Antonio; KHTR, St. Louis; KKHR, Los Angeles;
+KLTR, Houston &amp; WMXJ Miami</title>
+<meta name="description"
+content="Radio Stations KHTC, KQXT, KHTR, KKHR, KLTR, WMXJ, 55/KSD, WBZ, WDRC, WHYN.">
+<meta name="keywords"
+content="Program Director, KHTC, KQXT, KHTR, KKHR, KLTR, WMXJ, WDRC, WCCC, WHYN, WBZ, Hitradio, Hot Hits, CBS Radio, Jefferson Pilot, Majic, Big D, CHR, AC, Oldies, Radio and Records, Billboard, Hitmakers, Pulse, ARB, Arbitron, Broadcasting, Hartford, Boston, Springfield">
+<meta name="ROBOTS"
+content="Program Director, KHTC, KQXT, KHTR, KKHR, KLTR, WMXJ, WDRC, WCCC, WHYN, WBZ, Hitradio, Hot Hits, CBS Radio, Jefferson Pilot, Majic, Big D, CHR, AC, Oldies, Radio and Records, Billboard, Hitmakers, Pulse, ARB, Arbitron, Broadcasting, Hartford, Boston, Springfield">
+</head>
+<style>
+.spanstyle {
+	position:absolute;
+	visibility:visible;
+	top:-50px;
+	font-size:10pt;
+	font-family:Verdana;
+      font-weight:bold;
+	color:#3501F6;}</style><script>
+
+/*
+Cursor Trailor Text- By Peter Gehrig (http://www.24fun.ch/)
+Permission given to Dynamicdrive.com to feature script in it's archive.
+For full source code, installation instructions, and 1000's more DHTML scripts,
+visit http://dynamicdrive.com
+*/
+
+var x,y
+var step=20
+var flag=0
+
+// Your snappy message. Important: the space at the end of the sentence!!!
+var message="Oldies Radio ! "
+message=message.split("")
+
+var xpos=new Array()
+for (i=0;i<=message.length-1;i++) {
+	xpos[i]=-50
+}
+
+var ypos=new Array()
+for (i=0;i<=message.length-1;i++) {
+	ypos[i]=-50
+}
+
+function handlerMM(e){
+	x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX
+	y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY
+	flag=1
+}
+
+function makesnake() {
+	if (flag==1 && document.all) {
+    	for (i=message.length-1; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+    	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length-1; i++) {
+    		var thisspan = eval("span"+(i)+".style")
+    		thisspan.posLeft=xpos[i]
+			thisspan.posTop=ypos[i]
+    	}
+	}
+	
+	else if (flag==1 && document.layers) {
+    	for (i=message.length-1; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+    	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length-1; i++) {
+    		var thisspan = eval("document.span"+i)
+    		thisspan.left=xpos[i]
+			thisspan.top=ypos[i]
+    	}
+	}
+		var timer=setTimeout("makesnake()",30)
+}
+
+</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23986539-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+
+<body onLoad="makesnake()" 
+style="width:100%;overflow-x:hidden;overflow-y:scroll"
+<!-- *****begin Cursor Trailer text code *************-- background="Images/Bg_greymusic.gif" -->
+<!-- *****begin Cursor Trailer text code *************-->
+<script>
+<!-- Beginning of JavaScript -
+
+for (i=0;i<=message.length-1;i++) {
+    document.write("<span id='span"+i+"' class='spanstyle'>")
+	document.write(message[i])
+    document.write("</span>")
+}
+
+if (document.layers){
+	document.captureEvents(Event.MOUSEMOVE);
+}
+document.onmousemove = handlerMM;
+
+// - End of JavaScript - -->
+</script>
+<div align="center"><center>
+
+<table BORDER="0" CELLSPACING="1" CELLPADDING="8" width="610">
+  <tr>
+    <td HEIGHT="34" width="123" align="center" rowspan="2"><p align="center"><a
+    href="Digest1.htm" target="main"><img src="Images/digest.jpg" width="150" height="34"
+    alt="digest.jpg (11138 bytes)"></a></td>
+    <td HEIGHT="34" width="194" align="center" rowspan="2"><font FACE="Times New Roman"
+    SIZE="3"><b>Program Director<br>
+    WMXJ Radio&nbsp; Miami, FL 6/93-3/99</b></font></td>
+    <td HEIGHT="17" width="239" align="center"><a href="audio/wmxj.wav"><img src="Images/MajicGTGO-Box.gif"
+    alt="Dowload Majic Jingle" width="142" height="89" lowsrc="Dowload%20Majic%20Jingle"></a></td>
+  </tr>
+  <tr>
+    <td HEIGHT="17" width="239" align="center">
+    <object classid="clsid:22D6F312-B0F6-11D0-94AB-0080C74C7E95" id="MediaPlayer1" width="100"
+    height="30">
+      <param name="AudioStream" value="-1">
+      <param name="AutoSize" value="0">
+      <param name="AutoStart" value="-1">
+      <param name="AnimationAtStart" value="-1">
+      <param name="AllowScan" value="-1">
+      <param name="AllowChangeDisplaySize" value="-1">
+      <param name="AutoRewind" value="0">
+      <param name="Balance" value="0">
+      <param name="BufferingTime" value="5">
+      <param name="ClickToPlay" value="-1">
+      <param name="CursorType" value="0">
+      <param name="CurrentPosition" value="-1">
+      <param name="CurrentMarker" value="0">
+      <param name="DisplayBackColor" value="0">
+      <param name="DisplayForeColor" value="16777215">
+      <param name="DisplayMode" value="0">
+      <param name="DisplaySize" value="0">
+      <param name="Enabled" value="-1">
+      <param name="EnableContextMenu" value="-1">
+      <param name="EnablePositionControls" value="-1">
+      <param name="EnableFullScreenControls" value="0">
+      <param name="EnableTracker" value="-1">
+      <param name="Filename" value="audio/wmxj.wav">
+      <param name="InvokeURLs" value="-1">
+      <param name="Language" value="-1">
+      <param name="Mute" value="0">
+      <param name="PlayCount" value="1">
+      <param name="PreviewMode" value="0">
+      <param name="Rate" value="1">
+      <param name="SelectionStart" value="-1">
+      <param name="SelectionEnd" value="-1">
+      <param name="SendOpenStateChangeEvents" value="-1">
+      <param name="SendWarningEvents" value="-1">
+      <param name="SendErrorEvents" value="-1">
+      <param name="SendKeyboardEvents" value="0">
+      <param name="SendMouseClickEvents" value="0">
+      <param name="SendMouseMoveEvents" value="0">
+      <param name="SendPlayStateChangeEvents" value="-1">
+      <param name="ShowCaptioning" value="0">
+      <param name="ShowControls" value="-1">
+      <param name="ShowAudioControls" value="-1">
+      <param name="ShowDisplay" value="0">
+      <param name="ShowGotoBar" value="0">
+      <param name="ShowPositionControls" value="-1">
+      <param name="ShowStatusBar" value="0">
+      <param name="ShowTracker" value="-1">
+      <param name="TransparentAtStart" value="0">
+      <param name="VideoBorderWidth" value="0">
+      <param name="VideoBorderColor" value="0">
+      <param name="VideoBorder3D" value="0">
+      <param name="Volume" value="-130">
+      <param name="WindowlessVideo" value="0">
+    </object>
+    </td>
+  </tr>
+</table>
+</center></div>
+
+<table border="0" width="94%" height="301">
+  <tr>
+    <td width="100%" colspan="2" height="40"><font FACE="Times New Roman" SIZE="3">After tightening
+    rotations and emphasizing formatic execution Majic showed significant growth
+    immediately.&nbsp; As a result, our format competitor (WAXY) abandoned oldies for a new
+    market position. Majic is South Florida's only source for Good Times &amp; Great Oldies.</font></td>
+  </tr>
+  <tr>
+    <td width="42%" height="226"><p align="center">
+    <img src="Images/Miamicopy.jpg"
+    alt="Miami copy.jpg (32599 bytes)" width="285" height="198"><font FACE="Times New Roman"
+    SIZE="3"><br>
+    </font></td>
+    <td width="8%" valign="middle" align="center" rowspan="2" height="253">
+    <img src="Images/MajicJocks.jpg"
+    alt="Majic Jocks.jpg (39119 bytes)" width="275" height="269"></td>
+  </tr>
+  <tr>
+    <td width="42%" height="23">
+      <p align="center"><a href="audio/wmxjprofile.mp3">Download Station Profile
+      (MP3)</a></td>
+  </tr>
+</table>
+
+<table border="1" width="93%">
+  <tr>
+    <td width="9%"><p align="center"><a href="Bill_Ron.htm" target="main"><small>Bill Neil
+    &nbsp; &amp;</small><br>
+    <small>Ron Hersey </small></a></td>
+    <td width="8%"><small><p align="center"><a href="RShaw.htm">Rick Shaw</a></small></td>
+    <td width="16%"><p align="right"><small>Front Row:</small></td>
+    <td width="20%" align="center"><small>Sonny Fox<br>
+    Mornings</small></td>
+    <td width="22%" align="center"><small>Mindy Lang<br>
+    Music Director<br>
+    Evenings</small></td>
+    <td width="25%" align="center"><small>Ron Hersey<br>
+    Mornings</small></td>
+  </tr>
+  <tr>
+    <td width="13%" colspan="2"><p align="right"><small>Back Row:</small></td>
+    <td width="20%" align="center"><small>Joe Johnson<br>
+    <a href="http://www.beatlebrunch.com">Beatle Brunch</a><br>
+    Jukebox Saturday Night</small></td>
+    <td width="20%" align="center"><small>Mike Perry<br>
+    Overnight</small></td>
+    <td width="22%" align="center"><small>Eric Brandon<br>
+    Midday</small></td>
+    <td width="25%" align="center"><small>Ron St. John<br>
+    PM Drive</small></td>
+  </tr>
+</table>
+</body>
+</html>
